@@ -1,0 +1,90 @@
+/* Estilos gerais */
+body {
+    background-color: #0d0b1d; /* Fundo mais escuro, criando um ambiente misterioso */
+    color: #e2d4b7; /* Texto claro, para contraste com o fundo */
+    font-family: 'Bai Jamjuree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #1f1c34, #3c3b6e); /* Gradiente escuro, para dar mais drama */
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    background-color: #1e1c3a; /* Caixa principal com um fundo escuro, destacando a história */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Sombra na imagem para destacar */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos passos */
+.passo {
+    display: none;
+    padding: 20px;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #f5a623; /* Cor dourada para dar uma sensação de mistério e aventura */
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d98f00; /* Tom mais escuro quando passa o mouse */
+    transform: scale(1.05); /* Efeito de aumento para dar interatividade */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilo do texto */
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: #f5e8c7; /* Cor dourada suave, para manter o mistério */
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    main {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
